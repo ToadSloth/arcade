@@ -1,0 +1,56 @@
+body {
+    background-color: gray;
+
+}
+
+h1 {
+    
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+
+td {
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    font-size: 170px;
+    text-align: center;
+    color: white;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+}
+
+
+.spot.x::before {
+    content: '';
+}
+
+
+.spot.x::after {
+    content: 'X';
+}
+
+.spot.o::before {
+    content: '';
+}
+
+
+.spot.o::after {
+    content: 'O';
+}
+
+div {
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+}
+
+p {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
